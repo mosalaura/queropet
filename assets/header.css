@@ -1,0 +1,72 @@
+header {
+    border-bottom: 1px solid rgb(106, 104, 104);
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    font-family: Arial;
+    font-size: 1rem;
+    width: 20%;
+    text-align: center;
+}
+
+header h1 {
+    color: #59846c;
+}
+
+header h1 strong {
+    color: #72243d;
+}
+
+/* botões do header - entrar */
+.buttons_logo {
+    font-family: Arial;
+    font-size: 1rem;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header a+a {
+    margin-left: 2.5%;
+} */
+
+#btn_login {
+    width: 40%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: #59846c;
+    color: #fff;
+    border-style: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 12px;
+        justify-content: space-around;
+    }
+
+    header .logo {
+        font-size: 0.7rem;
+        width: 50%;
+    }
+
+    header .buttons_logo {
+        font-size: 0.7rem;
+        width: 50%;
+    }
+
+    header a+a {
+        margin-left: 4px;
+    }
+}
