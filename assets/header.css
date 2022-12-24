@@ -1,5 +1,10 @@
+:root {
+    --main-color: #31ada1;
+    --color: #51647a;
+}
+
 header {
-    border-bottom: 1px solid rgb(106, 104, 104);
+    border-bottom: 1px solid var(--color);
     padding: 1%;
     display: flex;
     justify-content: space-between;
@@ -16,11 +21,11 @@ header {
 }
 
 header h1 {
-    color: #59846c;
+    color: var(--color);
 }
 
 header h1 strong {
-    color: #72243d;
+    color: var(--main-color);
 }
 
 /* botões do header - entrar */
@@ -33,16 +38,12 @@ header h1 strong {
     align-items: center;
 }
 
-/* header a+a {
-    margin-left: 2.5%;
-} */
-
 #btn_login {
     width: 40%;
     padding: 12px;
     display: flex;
     justify-content: center;
-    background-color: #59846c;
+    background-color: var(--main-color);
     color: #fff;
     border-style: none;
     border-radius: 25px;
@@ -64,9 +65,5 @@ header h1 strong {
     header .buttons_logo {
         font-size: 0.7rem;
         width: 50%;
-    }
-
-    header a+a {
-        margin-left: 4px;
     }
 }

@@ -7,6 +7,11 @@
     list-style: none;
 }
 
+:root {
+    --main-color: #31ada1;
+    --color: #51647a;
+}
+
 header {
     padding: 3%;
     display: flex;
@@ -24,11 +29,11 @@ header {
 }
 
 header h2 {
-    color: rgb(81, 81, 81);
+    color: var(--color);
 }
 
 header h2 strong {
-    color: rgb(175, 55, 212);
+    color: var(--main-color);
 }
 
 /*  */
@@ -71,7 +76,7 @@ header h2 strong {
 
 
 .button {
-    background-color: rgb(175, 55, 212);
+    background-color: var(--main-color);
     border: none;
     border-radius: 30px;
     color: #fff;
@@ -84,7 +89,7 @@ header h2 strong {
 }
 
 .button:hover {
-    opacity: 70%;
+    opacity: 50%;
     transition: 300ms;
 }
 
@@ -114,7 +119,7 @@ header h2 strong {
 
 .div_login a {
     text-decoration: none;
-    color: rgb(175, 55, 212);
+    color: var(--main-color);
 }
 
 .div_login a:hover {
@@ -131,7 +136,7 @@ header h2 strong {
     }
 
     header .logo {
-        font-size: 0.7rem;
+        font-size: 1rem;
         width: 50%;
     }
 
