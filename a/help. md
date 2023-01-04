@@ -3,6 +3,11 @@ Cores
 red: #72243d;
 green #59846c;
 
+:root {
+    --main-color: #31ada1; (azul-água)
+    --color: #51647a; (azul-cinza)
+}
+
 ----------------------------------------
 
 CSS
