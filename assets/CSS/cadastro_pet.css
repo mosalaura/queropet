@@ -36,35 +36,24 @@ header h2 strong {
     color: var(--main-color);
 }
 
-/*  */
+/* ------- */
 
-fieldset {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border: none;
-}
 
-.form {
-    width: 40%;
-    margin: 20px 0px;
-    display: flex;
-    justify-content: center;
-}
 
-legend {
-    font-size: 1rem;
-    color: var(--main-color);
-    margin: 20px 10px;
-    align-items: center;
-}
 
-.porte {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-}
 
-.porte label {
-    margin-right: 8px;
+
+/* ------- */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 50px 0px 0px 0px;
+        justify-content: space-around;
+    }
+
+    header .logo {
+        font-size: 1rem;
+        width: 50%;
+    }
 }
